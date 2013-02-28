@@ -27,5 +27,5 @@ class Search(object):
         return r.json()
 
     def preview_urls(self, query):
-        for i in self.query(self.api_key, query)['items']:
+        for i in self.query(query)['items']:
             yield i['edmPreview'][0]
