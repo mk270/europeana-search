@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='europeana-search',
-    version='0.1.0',
+    version='0.1.1',
     author='Martin Keegan',
     author_email='martin@no.ucant.org',
     packages=['europeana'],
@@ -12,6 +12,6 @@ setup(
     description='Basic Python wrapper for Europeana Search API.',
     long_description=open('README.txt').read(),
     install_requires=[
-        "requests"
+        "requests >= 0.5.0"
     ],
 )
