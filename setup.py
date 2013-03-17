@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='europeana-search',
-    version='0.1.1',
+    version='0.1.2',
     author='Martin Keegan',
     author_email='martin@no.ucant.org',
     packages=['europeana'],
