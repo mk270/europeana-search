@@ -59,4 +59,5 @@ class Search(object):
             url = "%s%s.json" % (resource_prefix, item["id"])
 
             result = requests.get(url, params=args).json()
+            result["search_result"] = item
             yield result
