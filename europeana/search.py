@@ -9,8 +9,8 @@
 
 import requests
 
-prefix = 'http://preview.europeana.eu/api/v2/search.json'
-resource_prefix = 'http://preview.europeana.eu/api/v2/record'
+prefix = 'http://europeana.eu/api/v2/search.json'
+resource_prefix = 'http://europeana.eu/api/v2/record'
 
 class Search(object):
     def __init__(self, api_key):
